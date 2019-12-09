@@ -29,8 +29,8 @@ bool checkValidity(std::map<char, std::list<char> > m) {
 
     for (; it != m.end(); ++it) {
 
-        if (it->second.size() > 2)
-            return false;
+        if (it->second.size() % 2 != 0)
+            ++count;
         else if (it->second.size() == 1)
             ++count;
 

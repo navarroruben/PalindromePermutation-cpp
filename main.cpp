@@ -26,7 +26,7 @@ int main() {
         return 0;
     }
 
-    std::sort(str.begin(), str.end());
+ //   std::sort(str.begin(), str.end());
 
     transferCharsToMap(str, mymap);
 
